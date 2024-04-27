@@ -18,7 +18,7 @@
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-header">
-                            <img src="../../repo/img/logoSolicitacao.png" alt="Sistema de Controle de Solicitações" width="250" height="50">
+                            <img src="../../public/img/logoSolicitacao.png" alt="Sistema de Controle de Solicitações" width="250" height="50">
                         </div>
                         <div class="card-body">
                             <form method="post" action="../../login/index.php">
