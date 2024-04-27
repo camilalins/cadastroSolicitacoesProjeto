@@ -21,7 +21,7 @@
                             <img src="../../repo/img/logoSolicitacao.png" alt="Sistema de Controle de Solicitações" width="250" height="50">
                         </div>
                         <div class="card-body">
-                            <form method="post" action="../../login/login-controller.php">
+                            <form method="post" action="../../login/index.php">
 
                             <div class="form-group">
                                     <div class="input-group">
@@ -46,7 +46,7 @@
 
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-block">Entrar</button>
-                                <a href="../../views/login/esqueceu-senha.php" id="forgotPasswordLink" class="float-right">Esqueci minha senha</a>
+                                <a href="recuperar-senha.php" id="forgotPasswordLink" class="float-right">Esqueci minha senha</a>
                             </form>
                         </div>
                     </div>

@@ -2117,3 +2117,30 @@
 2024/04/27 18:55:31 [notice] 1#1: signal 17 (SIGCHLD) received from 33
 2024/04/27 18:55:31 [notice] 1#1: worker process 33 exited with code 0
 2024/04/27 18:55:31 [notice] 1#1: exit
+2024/04/27 22:55:15 [notice] 1#1: using the "epoll" event method
+2024/04/27 22:55:15 [notice] 1#1: nginx/1.25.5
+2024/04/27 22:55:15 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/27 22:55:15 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/04/27 22:55:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/27 22:55:15 [notice] 1#1: start worker processes
+2024/04/27 22:55:15 [notice] 1#1: start worker process 28
+2024/04/27 22:55:15 [notice] 1#1: start worker process 29
+2024/04/27 22:55:15 [notice] 1#1: start worker process 30
+2024/04/27 22:55:15 [notice] 1#1: start worker process 31
+2024/04/27 22:55:15 [notice] 1#1: start worker process 32
+2024/04/27 22:55:15 [notice] 1#1: start worker process 33
+2024/04/27 22:55:15 [notice] 1#1: start worker process 34
+2024/04/27 22:55:15 [notice] 1#1: start worker process 35
+2024/04/27 22:55:15 [notice] 1#1: start worker process 36
+2024/04/27 22:55:15 [notice] 1#1: start worker process 37
+2024/04/27 22:55:15 [notice] 1#1: start worker process 38
+2024/04/27 22:55:15 [notice] 1#1: start worker process 39
+2024/04/27 22:55:15 [notice] 1#1: start worker process 40
+2024/04/27 22:55:15 [notice] 1#1: start worker process 41
+2024/04/27 22:55:15 [notice] 1#1: start worker process 42
+2024/04/27 22:55:15 [notice] 1#1: start worker process 43
+2024/04/27 22:55:31 [error] 29#29: *3 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2024/04/27 22:56:16 [error] 30#30: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.24.0.1, server: , request: "GET /login/login.php HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost:8080"
+2024/04/27 22:56:28 [error] 32#32: *9 directory index of "/var/www/html/views/login/" is forbidden, client: 172.24.0.1, server: , request: "GET /views/login/ HTTP/1.1", host: "localhost:8080"
+2024/04/27 22:56:36 [error] 35#35: *13 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.24.0.1, server: , request: "GET /views/login/index.php HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost:8080"
+2024/04/27 22:59:24 [error] 42#42: *26 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.24.0.1, server: , request: "POST /views/login/esqueceusenha-controller.php HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost:8080", referrer: "http://localhost:8080/views/login/esqueceu-senha.php"
