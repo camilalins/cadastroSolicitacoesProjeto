@@ -1,0 +1,25 @@
+/* login.css */
+a#forgotPasswordLink {
+    padding: 14px 1px 1px 1px;
+    color: #495057!important;
+}
+.input-group {
+    padding: 5px;
+}
+.card-header {
+    text-align: center;
+}
+.input-group-prepend {
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(241, 245, 249);
+}
+.form-group .error {
+    color: red;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+}
+
